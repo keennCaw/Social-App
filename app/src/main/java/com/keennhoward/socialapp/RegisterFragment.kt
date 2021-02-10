@@ -12,8 +12,10 @@ import com.keennhoward.socialapp.databinding.FragmentRegisterBinding
 class RegisterFragment : Fragment() {
 
     private var _binding: FragmentRegisterBinding? = null
+
     // This property is only valid between onCreateView and
-// onDestroyView.
+    // onDestroyView.
+
     private val binding get() = _binding!!
 
     override fun onCreateView(
